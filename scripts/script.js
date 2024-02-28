@@ -1,4 +1,9 @@
-const time = document.getElementById('timeout');
+
 setTimeout(() => {
-    time.style.display ='block';
-}, 4000);
+    const time = document.getElementById('timeout');
+    console.log('now the time')
+}, 5000);
+
+setTimeout(() => {
+    console.log("after 2sec")
+}, 2000);
