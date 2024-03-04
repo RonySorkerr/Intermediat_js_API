@@ -21,11 +21,20 @@
 //     console.log(id, num)
 // }, 2000)
 
-let num = 0;
-const clockid = setInterval (() => {
-    num++;
-    if(num > 6){
-        clearInterval(clockid);
+// let num = 0;
+// const clockid = setInterval (() => {
+//     num++;
+//     if(num > 6){
+//         clearInterval(clockid);
+//     }
+//     console.log(clockid,  num)
+// },1500)
+
+let number = 0;
+const clockId1 = setInterval(() => {
+    number++;
+    if(number> 3){
+        clearInterval(clockId1);
     }
-    console.log(clockid,  num)
-},1500)
+    console.log(clockId1, number)
+}, 1400);
